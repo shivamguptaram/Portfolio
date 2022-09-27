@@ -1,0 +1,85 @@
+.form-container {
+    background: #e4e3e3;
+    text-align: center;
+    padding:5%;
+}
+textarea.form-control {
+    height: 8em;
+    width: 20em;
+}
+input.form-control {
+    width: 20em;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(117, 117, 124);
+   
+    animation: ani2 0.7s steps(22) forwards;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+}
+.after-note {
+
+    color: antiquewhite;
+    background: darkcyan;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+ 
+  /* flex */
+  .grid-container{
+  
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 21px;
+    
+    
+  }
+ 
+  .contact-container{
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      background-color: dimgray;
+      justify-content: center;
+    align-items: center;
+      /* max-width: 100%; */
+      /* width: calc(((100% - 720px) / 2) + 155px); */
+  }
+  
+  .fa-mobile-phone,.fa-envelope-o{
+      font-size: 4em;
+      padding:52px 93px 16px 97px;
+      color:#f1d251;
+  }
+  .Social-Media{text-align: -webkit-center;
+    font-size: xx-large;
+    background: white;
+    
+  }
+  @media (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: auto ;
+    }
+}
+#invalidEmail{
+  color: red;
+  font-size: smaller;
+  font-weight: 100;
+}

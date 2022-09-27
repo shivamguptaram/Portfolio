@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "14.11.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd portfolio-site && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamguptaram/React-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamguptaram/React-App/issues"
+  },
+  "homepage": "https://github.com/shivamguptaram/React-App#readme",
+  "description": ""
+}

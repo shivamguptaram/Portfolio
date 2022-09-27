@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31368133.chunk.css",
+    "main.js": "/static/js/main.3456cedd.chunk.js",
+    "main.js.map": "/static/js/main.3456cedd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.61742cd0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.61742cd0.js.map",
+    "static/js/2.914f296e.chunk.js": "/static/js/2.914f296e.chunk.js",
+    "static/js/2.914f296e.chunk.js.map": "/static/js/2.914f296e.chunk.js.map",
+    "static/js/3.60236e28.chunk.js": "/static/js/3.60236e28.chunk.js",
+    "static/js/3.60236e28.chunk.js.map": "/static/js/3.60236e28.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.31368133.chunk.css.map": "/static/css/main.31368133.chunk.css.map",
+    "static/js/2.914f296e.chunk.js.LICENSE.txt": "/static/js/2.914f296e.chunk.js.LICENSE.txt",
+    "static/media/Desktop_App.98a910e1.jpeg": "/static/media/Desktop_App.98a910e1.jpeg",
+    "static/media/ShivamGuptaResume.209ffebf.pdf": "/static/media/ShivamGuptaResume.209ffebf.pdf",
+    "static/media/Twitter_1.101acad9.jpg": "/static/media/Twitter_1.101acad9.jpg",
+    "static/media/Twitter_2.de16da2b.jpg": "/static/media/Twitter_2.de16da2b.jpg",
+    "static/media/shiv.2fa23331.jpg": "/static/media/shiv.2fa23331.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61742cd0.js",
+    "static/js/2.914f296e.chunk.js",
+    "static/css/main.31368133.chunk.css",
+    "static/js/main.3456cedd.chunk.js"
+  ]
+}

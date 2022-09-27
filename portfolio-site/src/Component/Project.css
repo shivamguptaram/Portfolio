@@ -1,0 +1,36 @@
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .responsive:hover{
+    transform: scale(1.5); /* (150% zoom)*/
+
+  }
+@media (max-width: 800px) {
+    
+    }
+    @media screen and (min-width:750px) and (max-width: 1000px) {}
+
+    @media screen and  (min-width:250px) and (max-width:750px) {}
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #f1eeee;
+        padding: 10px;
+        justify-content: center;
+        grid-column-gap: 50px;
+
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+      @media (max-width: 800px) {
+        .grid-container {
+            grid-template-columns: auto ;
+        }
+    }
